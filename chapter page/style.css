@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.wrap {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.one-bg {
+    background-color: #ffffff; 
+    color: #171717; 
+}
+
+.two-bg {
+    background-color: rgb(226, 226, 226);
+}
+
+.three-bg {
+    background-color: rgb(197, 197, 197);
+}
+
+.four-bg {
+    background-color: #9a9a9a;
+}
+
+.five-bg {
+    background-color: #828282;
+}
+
+.six-bg {
+    background-color: #6d6d6d;
+}
+
+.seven-bg {
+    background-color: #575757;
+    color: white;
+}
+
+.eight-bg {
+
+    background: #424242;
+    color: white;
+}
+
+.nine-bg {
+    background-color: #242424;
+    color: white;
+}
+
+.ten-bg {
+    background-color: #171717;
+    color: white;
+}
+
+
+
+
+.chapter_number {
+    margin-right: 5%;
+    height:120vh;
+    background-color:#2bb49900;
+    float:left;
+    font-size: 32px;
+    margin-top: 10px;
+
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .wrap {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .chapter_number {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .wrap {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .chapter_number {
+        font-size: 16px;
+    }
+}
+
+
+.chapter_title {
+    height:auto;
+    margin-top: 130px;
+    margin-bottom:10px;
+    background-color:#a3bc3200;
+    font-size: 2.3vw;
+
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+    .wrap {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .chapter_title {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .wrap {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .chapter_title {
+        font-size: 25px;
+    }
+}
+
+
+.body {
+    background-color: rgba(100, 148, 237, 0);
+    font-size: 24px;
+    margin: 30px;
+    margin-top: 10vh;
+    margin-right: 9%;
+    margin-bottom: 1.8%;
+    line-height: 1.5;
+
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+@media screen and (max-width: 1200px) {
+    .body {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .body {
+        font-size: 13px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .body {
+        font-size: 10px;
+        margin-right: 7%; 
+    }
+}
+
+
+.next_chapter {
+    float: right; 
+    font-size: 28px;
+    margin-top: 15vh; 
+    margin-right: -0.9%;
+
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.prev_chapter {
+    float: left; 
+    font-size: 28px;
+    margin-top: 15vh;
+    margin-left: -10%; 
+    
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+@media screen and (max-width: 768px) {
+    .next_chapter,
+    .prev_chapter {
+        font-size: 19px; 
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .next_chapter,
+    .prev_chapter {
+        font-size: 14px; 
+        margin-top: 10vh; 
+    }
+}
+
+.white-bg .prev_chapter,
+.white-bg .next_chapter {
+    background-color: #ffffff; 
+    color: #333333;
+}
